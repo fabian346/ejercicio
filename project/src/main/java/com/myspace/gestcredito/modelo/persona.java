@@ -7,6 +7,8 @@ package com.myspace.gestcredito.modelo;
 public class persona implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
+	
+	
 
 	@org.kie.api.definition.type.Label(value = "primer nombre")
 	private java.lang.String primerNombre;
@@ -24,6 +26,8 @@ public class persona implements java.io.Serializable {
 	private java.util.Date fechaNacimiento;
 
 	public persona() {
+		 
+	
 	}
 
 	public java.lang.String getPrimerNombre() {
@@ -60,7 +64,9 @@ public class persona implements java.io.Serializable {
 
 	public java.lang.String getTipoDocumento() {
 		return this.tipoDocumento;
+		
 	}
+	
 
 	public void setTipoDocumento(java.lang.String tipoDocumento) {
 		this.tipoDocumento = tipoDocumento;
@@ -76,6 +82,7 @@ public class persona implements java.io.Serializable {
 
 	public java.util.Date getFechaNacimiento() {
 		return this.fechaNacimiento;
+		
 	}
 
 	public void setFechaNacimiento(java.util.Date fechaNacimiento) {
